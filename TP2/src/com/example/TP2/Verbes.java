@@ -7,9 +7,11 @@ public class Verbes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int nbChar = 2;
-        String groupe = " n'est pas un verbe";
         System.out.println("Ecrivez un verbe à l'infinitif :");
         String intVerb = sc.next();
+
+        String groupe = " n'est pas un verbe";
+
 
         if(intVerb.endsWith("er"))
             groupe = " est un verbe de premier groupe.";
